@@ -16,7 +16,7 @@ export default function AboutPage() {
                         width={200}
                         height={200}
                     />
-                    <p>I'm Md Samer Ansari</p>
+                    <p>I&apos;m Md Samer Ansari</p>
                     <p>I like Solving DSA problems on LeetCode and love to making, breaking, experimenting, developing and learning things about the web.</p>
                     <p>
                         Github is my favorite place to be. I do a lot of things there and contribute heavily to Open Source.
@@ -25,7 +25,7 @@ export default function AboutPage() {
                         There are a few people who helped me get started writing code. I have a huge respect for them.
                     </p>
                     <p>
-                        Now I've attained enough knowledge so that I can give back to the community. I really like helping others who are trying to get into this field.
+                        Now I&apos;ve attained enough knowledge so that I can give back to the community. I really like helping others who are trying to get into this field.
                     </p>
                 </div>
             </section>
