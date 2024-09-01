@@ -1,3 +1,4 @@
+import { HeroButton } from "@/components";
 import Image from "next/image";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
                 Md Samer Ansari
               </p>
             </div>
+            <HeroButton />
           </div>
         </div>
   );
