@@ -27,6 +27,7 @@ export default function RootLayout({
           <AnimatedCursor />
           {children}
           <SpeedInsights />
+          <Toaster />
         </main>
         </body>
     </html>
