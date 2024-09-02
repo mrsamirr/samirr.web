@@ -1,9 +1,10 @@
 import { HeroButton } from "@/components";
+import Skills from "@/components/Skills";
 import Image from "next/image";
 
 export default function Home() {
   return (
-   
+    <>
         <div
           className="min-h-[60vh] sm:min-h-[80vh] md:min-h-screen w-full flex-col relative flex items-center justify-center"
           id="home"
@@ -23,5 +24,8 @@ export default function Home() {
             <HeroButton />
           </div>
         </div>
+        <Skills />
+        </>
+        
   );
 }
