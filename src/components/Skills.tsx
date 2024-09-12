@@ -21,14 +21,15 @@ function SkillPill(props: SkillProps) {
 export default function Skills() {
     return (
         <>
-            <section className="overflow-hidden dark: text-white py-10" >
+               <div id="skills" className="relative -top-16"></div>
+               <section className="overflow-hidden dark:text-white py-10">
                 <div className="relative mx-auto max-w-7xl">
                     <h2 className="text-4xl sm:text-5xl md:text-7xl font-bold dark: text-white text-center">
                         Technical Skills
                     </h2>
                     <div className="mt-5">
                         <p className="font-semibold text-2xl mx-auto text-center" >
-                            Languages
+                           Programming Languages
                         </p>
                         <div className="mt-4 flex flex-wrap justify-center gap-5 text-lg dark:text-zinc-100
 ">

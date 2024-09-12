@@ -1,14 +1,15 @@
 import { HeroButton } from "@/components";
 import Skills from "@/components/Skills";
+import { TypewriterEffectDemo } from "@/components/TypeWritingEffect";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-        <div
-          className="min-h-[60vh] sm:min-h-[80vh] md:min-h-screen w-full flex-col relative flex items-center justify-center"
-          id="home"
-        >
+        <div className="min-h-[60vh] sm:min-h-[80vh] md:min-h-screen w-full flex-col relative flex items-center justify-center"
+          id="home">
+            {/* faded look blocked */}
+             {/* <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div> */}
           <div className="pt-20 select-none">
             <p className="text-4xl sm:text-5xl md:text-7xl font-bold relative z-10 bg-clip-text text-transparent bg-gradient-to-b dark:from-neutral-200 dark:to-neutral-500 from-neutral-600 to-neutral-800 py-2">
               Hi <span className="wave text-black">👋</span>
@@ -21,6 +22,7 @@ export default function Home() {
                 Md Samer Ansari
               </p>
             </div>
+              <TypewriterEffectDemo />
             <HeroButton />
           </div>
         </div>
