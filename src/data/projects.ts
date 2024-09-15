@@ -30,7 +30,7 @@ export const projects = [
           description: "The Payment Application is designed to manage and process payments efficiently. It includes features such as user authentication, transaction history, and payment gateways integration. This application aims to provide a seamless payment experience for users.",
           image: "/projects/payment-application.png?height=200&width=300",
           github: "https://github.com/mrsamirr/payment-application",
-          live: "https://paytm-clone-app.vercel.app/",
+          live: "https://payment-clone-app.vercel.app/",
           tech: [
             '/logos/javascript.svg',
             '/logos/react.svg',
