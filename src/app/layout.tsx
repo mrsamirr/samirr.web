@@ -4,7 +4,6 @@ import "./globals.css";
 import { Navbar } from "../components/Navbar";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { AnimatedCursor } from "@/components/AnimatedCursor";
-import Projects from "@/components/Projects";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -28,7 +27,6 @@ export default function RootLayout({
           <AnimatedCursor />
           {children}
           <SpeedInsights />
-          <Projects />
         </main>
         </body>
     </html>

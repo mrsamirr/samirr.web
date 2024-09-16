@@ -8,7 +8,6 @@ import { Button } from "./ui/button";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -26,7 +25,7 @@ export default function Projects() {
       <div id="projects" className="relative -top-16"></div>
       <section id="projects" className="mb-16">
         <div className="relative mx-auto max-w-7xl">
-          <h2 className="text-4xl sm:text-5xl md:text-7xl font-bold dark: text-white text-center mb-8">
+          <h2 className="text-4xl sm:text-5xl md:text-7xl font-bold dark:text-white text-center mb-8">
             Projects
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-10 container mx-auto">
@@ -38,13 +37,15 @@ export default function Projects() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-                <Card className="h-full flex flex-col text-white">
+                <Card className="h-full flex flex-col dark:text-white">
 
                   <CardContent className="flex-grow">
-                    <img
+                    <Image
                       src={project.image}
                       alt={project.title}
                       className="w-full h-40 object-cover rounded-md mb-4"
+                      width={500}
+                      height={160}
                     />
 
                     <p className="text-[clamp(.75rem,1.5vw,.875rem)] line-clamp-2 max-w-xs">
@@ -76,7 +77,7 @@ export default function Projects() {
 
                       </a>
                     </Button>
-                    <div className="flex gap-3 items-center sm:overflow-auto">
+                    <div className="flex flex-wrap gap-3 items-center justify-start sm:justify-stretch">
                       {project.tech.map((proj) => (
                         <Image src={proj} alt={proj} width={20} height={20} key={proj} />
                       ))}

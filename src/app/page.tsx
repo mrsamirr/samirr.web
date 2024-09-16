@@ -1,4 +1,5 @@
 import { HeroButton } from "@/components";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import { TypewriterEffectDemo } from "@/components/TypeWritingEffect";
 import Image from "next/image";
@@ -18,7 +19,7 @@ export default function Home() {
               <span className="text-4xl sm:text-5xl md:text-7xl font-bold dark:text-white">
                 I&apos;m
               </span>
-              <p className="my-6 text-4xl sm:text-5xl md:text-7xl font-bold relative z-10 bg-clip-text text-transparent bg-gradient-to-b dark:from-gray-200 dark:to-blue-500 from-red-600 to-pink-800 py-2 cursor-pointer">
+              <p className="my-6 text-4xl sm:text-5xl md:text-7xl font-bold relative z-10 bg-clip-text text-transparent bg-gradient-to-b dark:from-gray-200 dark:to-blue-500 from-blue-600 to-blue-500 py-2 cursor-pointer">
                 Md Samer Ansari
               </p>
             </div>
@@ -27,6 +28,7 @@ export default function Home() {
           </div>
         </div>
         <Skills />
+        <Projects />
         </>
         
   );
