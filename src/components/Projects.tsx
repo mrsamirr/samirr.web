@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { motion } from "framer-motion";
-import { GithubIcon, ExternalLinkIcon, SendIcon, Github } from "lucide-react";
+import { GithubIcon, ExternalLinkIcon, SendIcon, Github, Globe } from "lucide-react";
 import { projects } from "@/data/projects";
 import { Button } from "./ui/button";
 import {
@@ -73,7 +73,7 @@ export default function Projects() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <ExternalLinkIcon className="mr-0 h-4 w-4" />
+                        <Globe className="mr-0 h-5 w-5" />
 
                       </a>
                     </Button>
