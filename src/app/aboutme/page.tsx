@@ -9,9 +9,9 @@ export default function AboutPage() {
                     About Me
                 </h1>
 
-                <div className="dark:bg-black bg-white max-w-lg dark:text-white text-xl p-5 font-thin flex flex-col items-center rounded-lg border-2 gap-5 m-1">
+                <div className="dark:bg-black bg-white max-w-lg dark:text-white text-xl p-5 font-thin flex flex-col items-center rounded-lg border-2 gap-9 m-1">
                     <Image
-                        src={"https://avatars.githubusercontent.com/u/115770126?v=4"}
+                        src={"https://pbs.twimg.com/profile_images/1816418580189073408/xsUbID_a_400x400.jpg"}
                         alt="samirr's image"
                         className="rounded-full border-blue-500 border-4"
                         width={200}
@@ -29,6 +29,7 @@ export default function AboutPage() {
                     <p>
                         Now I&apos;ve learned a lot and now feel ready to give back to the community. I enjoy supporting others who are starting their journey in this field.
                     </p>
+
                 </div>
             </section>
 
