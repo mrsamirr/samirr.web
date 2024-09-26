@@ -43,7 +43,7 @@ export const projects = [
           description: "Agrilink is India's leading Food & Agribusiness Counseling Organization committed to helping Farmers, People, Business visionaries, New companies, SMEs, and Corporate Associations, strategically to transform (setup) their dream Agri-Food ventures into the real world.",
           image: "/projects/agriLink.png?height=200&width=300",
           github: "https://github.com/mrsamirr/AgriLink/",
-          live: "https://agri-link-sand.vercel.app/",
+          live: "https://agri-link-farming.vercel.app/",
           tech: [
             '/logos/javascript.svg',
             '/logos/react.svg',
