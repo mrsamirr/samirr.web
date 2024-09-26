@@ -12,6 +12,7 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
+import Link from './Shared/Link';
 
 const trimDescriptionToWords = (description: string, limit: number) => {
   const words = description.split(' ');
@@ -43,7 +44,7 @@ export default function Projects() {
                     <Image
                       src={project.image}
                       alt={project.title}
-                      className="w-full h-40 object-cover rounded-md mb-4"
+                      className="w-full h-80 object-cover rounded-md mb-4"
                       width={500}
                       height={160}
                     />
@@ -58,24 +59,22 @@ export default function Projects() {
                   </CardHeader>
                   <CardFooter className="flex justify-between">
                     <Button variant="outline" size="sm" asChild>
-                      <a
+                      <Link
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <Github className="mr-0 h-5 w-5" />
-
-                      </a>
+                        <Github className="mr-0 h-4 w-4" />
+                      </Link>
                     </Button>
                     <Button variant="outline" size="sm" asChild>
-                      <a
+                      <Link
                         href={project.live}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <Globe className="mr-0 h-5 w-5" />
-
-                      </a>
+                      </Link>
                     </Button>
                     <div className="flex flex-wrap gap-3 items-center justify-start sm:justify-stretch">
                       {project.tech.map((proj) => (

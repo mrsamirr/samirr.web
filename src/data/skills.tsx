@@ -12,6 +12,7 @@ import {
     TailwindIcon,
     TypescriptIcon
 } from "@/components/icons";
+import { GitHubActionsIcon } from "@/components/icons/githubactions";
 import { LinuxIcon } from "@/components/icons/linux";
 import { Url } from "next/dist/shared/lib/router/router";
 
@@ -81,5 +82,9 @@ export const TOOLS: SkillProps[] = [
     {
         name: 'linux',
         icon: <LinuxIcon />
+    },
+    {
+        name: 'github actions',
+        icon: <GitHubActionsIcon />
     }
 ]
