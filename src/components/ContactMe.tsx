@@ -13,7 +13,7 @@ export const Contact = () => {
                     You can send me over an e-mail on{" "}
                     <Link
                         href="mailto:mdsameransari45@gmail.com"
-                        className="text-blue-300 hover:!text-blue-300"
+                        className="text-red-400 hover:!text-blue-300"
                     >
                         mdsameransari45@gmail.com
                     </Link>
