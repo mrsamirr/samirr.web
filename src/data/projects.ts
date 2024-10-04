@@ -64,16 +64,16 @@ export const projects = [
             '/logos/tailwind.svg',
           ],
         },
-        // {
-        //   title: "Project 6",
-        //   description: "A brief description of Project 3",
-        //   image: "/projects/agriLink.png?height=200&width=300",
-        //   github: "https://github.com",
-        //   live: "https://example.com",
-        //   tech: [
-        //     '/logos/typescript.svg',
-        //     '/logos/react.svg',
-        //     '/logos/tailwind.svg',
-        //   ],
-        // }
+        {
+          title: "Aurora Ai",
+          description: "Your One-Stop Gateway to the Ultimate Unified AI Assistant for All Your Needs.",
+          image: "/projects/aurora-ai.png?height=200&width=300",
+          github: "https://github.com/mrsamirr/ask-this-website",
+          live: "https://ai-aurora.vercel.app/",
+          tech: [
+            '/logos/next-js.svg',
+            '/logos/typescript.svg',
+            '/logos/tailwind.svg',
+          ],
+        }
   ]
