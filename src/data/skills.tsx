@@ -15,7 +15,6 @@ import {
 import { GitHubActionsIcon } from "@/components/icons/githubactions";
 import { LinuxIcon } from "@/components/icons/linux";
 import { RedisIcon } from "@/components/icons/redis";
-import { Url } from "next/dist/shared/lib/router/router";
 
 
 export type SkillProps = {
