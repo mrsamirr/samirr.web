@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import avatar from "../../public/avatar.jpg" // Adjust the path to your avatar image
+import avatar from "../../../public/avatar.jpg" // Adjust the path to your avatar image
 
 
 export const Navbar = () =>  {

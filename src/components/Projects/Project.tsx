@@ -1,14 +1,14 @@
 import Image from 'next/image';
 import { Github, Globe } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import {
     Card,
     CardContent,
     CardFooter,
     CardHeader,
     CardTitle,
-} from "./ui/card";
-import Link from './Shared/Link';
+} from "../ui/card";
+import Link from '../Shared/Link';
 import { projects } from '@/data/projects';
 import { motion } from 'framer-motion';
 

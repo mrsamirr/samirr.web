@@ -102,6 +102,6 @@ const ExternalLink = forwardRef<HTMLAnchorElement, ExternalLinkProps>(
   }
 );
 
-ExternalLink.displayName = "Link";
+ExternalLink.displayName = "TheLink";
 
 export default ExternalLink;

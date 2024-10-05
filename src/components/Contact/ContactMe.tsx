@@ -1,5 +1,6 @@
 "use client"
-import Link from "./Shared/Link";
+
+import ExternalLink from "../Shared/Link";
 
 export const Contact = () => {
     return (
@@ -11,12 +12,12 @@ export const Contact = () => {
                 </h2>
                 <p className="text-lg font-normal text-gray-100">
                     You can send me over an e-mail on{" "}
-                    <Link
+                    <ExternalLink
                         href="mailto:mdsameransari45@gmail.com"
                         className="text-red-400 hover:!text-blue-300"
                     >
                         mdsameransari45@gmail.com
-                    </Link>
+                    </ExternalLink>
                 </p>
             </section>
         </div>

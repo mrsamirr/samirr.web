@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../components/Navbar/Navbar";
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { AnimatedCursor } from "@/components/AnimatedCursor";
+import { AnimatedCursor } from "@/components/ui/AnimatedCursor";
 import { Contact, Footer } from "@/components";
 
 

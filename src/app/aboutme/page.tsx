@@ -1,4 +1,4 @@
-import { renderSocials } from "@/components/Socials";
+import { renderSocials } from "@/components/Socials/Socials";
 import Image from "next/image";
 
 export default function AboutPage() {

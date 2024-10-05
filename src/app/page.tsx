@@ -1,8 +1,7 @@
 import { HeroButton } from "@/components";
-import Projects from "@/components/Projects";
-import Skills from "@/components/Skills";
-import { TypewriterEffectDemo } from "@/components/TypeWritingEffect";
-import Image from "next/image";
+import Projects from "@/components/Projects/Projects";
+import Skills from "@/components/Skills/Skills";
+import { TheTypewriterEffect } from "@/components/ui/TypeWritingEffect";
 
 export default function Home() {
   return (
@@ -23,7 +22,7 @@ export default function Home() {
               Md Samer Ansari
             </p>
           </div>
-          <TypewriterEffectDemo />
+          <TheTypewriterEffect />
           <HeroButton />
         </div>
       </div>

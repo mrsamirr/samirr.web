@@ -1,8 +1,9 @@
 "use client";
 
-import { TypewriterEffect } from "./ui/typewriter-effect";
+import { TypewriterEffect } from "./typewriter-effect";
 
-export function TypewriterEffectDemo() {
+
+export function TheTypewriterEffect() {
   const words = [
     {
       text: "I",
