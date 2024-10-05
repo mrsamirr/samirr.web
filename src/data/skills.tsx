@@ -14,6 +14,7 @@ import {
 } from "@/components/icons";
 import { GitHubActionsIcon } from "@/components/icons/githubactions";
 import { LinuxIcon } from "@/components/icons/linux";
+import { RedisIcon } from "@/components/icons/redis";
 import { Url } from "next/dist/shared/lib/router/router";
 
 
@@ -60,6 +61,10 @@ export const DATABASES: SkillProps[] = [
     {
         name: 'Postgres',
         icon: <PostgresIcon />
+    },
+    {
+        name: 'Redis',
+        icon: <RedisIcon />
     },
     {
         name: 'Mongodb',
