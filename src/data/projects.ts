@@ -26,6 +26,32 @@ export const projects = [
           ],
         },
         {
+          title: "Aurora Ai",
+          description: "Your One-Stop Gateway to the Ultimate Unified AI Assistant for All Your Needs.",
+          image: "/projects/aurora-ai.png?height=200&width=300",
+          github: "https://github.com/mrsamirr/ask-this-website",
+          live: "https://ai-aurora.vercel.app/",
+          tech: [
+            '/logos/next-js.svg',
+            '/logos/typescript.svg',
+            '/logos/tailwind.svg',
+            '/logos/redis.svg',
+          ],
+        },
+        {
+          title: "Dawah.dev",
+          description: "Dawah.Dev is your AI-powered companion for Islamic knowledge and spiritual growth.",
+          image: "/projects/dawahDev.png?height=200&width=300",
+          github: "https://github.com/mrsamirr/Dawah.dev",
+          live: "https://dawah-dev-mrsamirrs-projects.vercel.app/",
+          tech: [
+            '/logos/typescript.svg',
+            '/logos/react.svg',
+            '/logos/next-js.svg',
+            '/logos/tailwind.svg',
+          ],
+        },
+        {
           title: "Payment Application",
           description: "The Payment Application is designed to manage and process payments efficiently. It includes features such as user authentication, transaction history, and payment gateways integration. This application aims to provide a seamless payment experience for users.",
           image: "/projects/payment-application.png?height=200&width=300",
@@ -50,30 +76,7 @@ export const projects = [
             '/logos/nodejs.svg',
             '/logos/tailwind.svg',
           ],
-        },
-        {
-          title: "Dawah.dev",
-          description: "Dawah.Dev is your AI-powered companion for Islamic knowledge and spiritual growth.",
-          image: "/projects/dawahDev.png?height=200&width=300",
-          github: "https://github.com/mrsamirr/Dawah.dev",
-          live: "https://dawah-dev-mrsamirrs-projects.vercel.app/",
-          tech: [
-            '/logos/typescript.svg',
-            '/logos/react.svg',
-            '/logos/next-js.svg',
-            '/logos/tailwind.svg',
-          ],
-        },
-        {
-          title: "Aurora Ai",
-          description: "Your One-Stop Gateway to the Ultimate Unified AI Assistant for All Your Needs.",
-          image: "/projects/aurora-ai.png?height=200&width=300",
-          github: "https://github.com/mrsamirr/ask-this-website",
-          live: "https://ai-aurora.vercel.app/",
-          tech: [
-            '/logos/next-js.svg',
-            '/logos/typescript.svg',
-            '/logos/tailwind.svg',
-          ],
         }
+        
+        
   ]
