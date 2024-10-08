@@ -2,7 +2,7 @@
 import Link from "@/components/Shared/Link";
 
 export const Footer = () => {
-    return <footer className="mx-auto pb-16 flex max-w-3xl flex-col items-center space-y-4 px-8 text-center text-white">
+    return <footer className="mx-auto pb-16 flex max-w-3xl flex-col items-center space-y-4 px-8 text-center dark:text-white">
             <p>
                 Made by <Link className="text-red-400"
                     href="https://www.linkedin.com/in/mrsamirr/">Md Samer Ansari</Link>

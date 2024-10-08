@@ -13,7 +13,7 @@ export const projects = [
           ],
         },
         {
-          title: "Samirr.web",
+          title: "Personal Portfolio",
           description: "The website you are currently on. I built this site to showcase my skills and my portfolio.",
           image: "/projects/portfolio.png",
           github: "https://github.com/mrsamirr/samirr.web",

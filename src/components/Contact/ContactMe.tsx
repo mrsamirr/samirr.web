@@ -10,7 +10,7 @@ export const Contact = () => {
                 <h2 className="text-4xl sm:text-5xl md:text-7xl font-bold dark:text-white text-center mb-8">
                     Contact Me
                 </h2>
-                <p className="text-lg font-normal text-gray-100">
+                <p className="text-lg font-normal dark:text-gray-100">
                     You can send me over an e-mail on{" "}
                     <ExternalLink
                         href="mailto:mdsameransari45@gmail.com"
