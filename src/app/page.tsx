@@ -1,6 +1,7 @@
 import { HeroButton } from "@/components";
 import Projects from "@/components/Projects/Projects";
 import Skills from "@/components/Skills/Skills";
+import AnimationContainer from "@/components/ui/AnimationContainer";
 import { TheTypewriterEffect } from "@/components/ui/TypeWritingEffect";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
           <p className="text-4xl sm:text-5xl md:text-7xl font-bold relative z-10 bg-clip-text text-transparent bg-gradient-to-b dark:from-neutral-200 dark:to-neutral-500 from-neutral-600 to-neutral-800 py-2">
             Hi <span className="wave text-black">👋</span>
           </p>
+          <AnimationContainer>
           <div className="flex items-center gap-5">
             <span className="text-4xl sm:text-5xl md:text-7xl font-bold dark:text-white">
               I&apos;m
@@ -22,6 +24,7 @@ export default function Home() {
               Md Samer Ansari
             </p>
           </div>
+          </AnimationContainer>
           <TheTypewriterEffect />
           <HeroButton />
         </div>

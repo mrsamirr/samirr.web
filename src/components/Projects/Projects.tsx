@@ -1,5 +1,6 @@
 "use client";
 
+import AnimationContainer from "../ui/AnimationContainer";
 import Project from "./Project";
 
 export default function Projects() {
@@ -8,9 +9,11 @@ export default function Projects() {
       <div className="container px-4 md:px-6">
         <div className="relative mx-auto max-w-7xl">
           <div id="projects" className="relative -top-16"></div>
-          <h2 className="text-4xl sm:text-5xl md:text-7xl font-bold dark:text-white text-center mb-8">
-            Projects
-          </h2>
+          <AnimationContainer>
+            <h2 className="text-4xl sm:text-5xl md:text-7xl font-bold dark:text-white text-center mb-8">
+              Projects
+            </h2>
+          </AnimationContainer>
         </div>
         <Project />
       </div>
