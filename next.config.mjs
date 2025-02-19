@@ -4,7 +4,7 @@ const nextConfig = {
       remotePatterns: [
         {
           protocol: 'https',
-          hostname: 'pbs.twimg.com',
+          hostname: 'creatorspace.imgix.net',
         },
         {
           protocol: 'https',
