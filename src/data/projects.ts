@@ -1,4 +1,17 @@
 export const projects = [
+          {
+          title: "Miro Dev",
+          description: "Miro Clone - Real-time collaboration, versatile canvas, rich media, secure.",
+          image: "/projects/miro-dev.png?height=200&width=300",
+          github: "https://github.com/mrsamirr/miro-dev",
+          live: "https://miro-dev-delta.vercel.app/",
+          tech: [
+            '/logos/typescript.svg',
+            '/logos/next-js.svg',
+            '/logos/tailwind.svg',
+            '/logos/shadcn.jpeg',
+          ],
+        },
         {
           title: "WhiteSpace",
           description: "WhiteSpace is a modern blogging platform that emphasizes simplicity and readability. It is designed to offer a seamless writing and reading experience with a focus on minimalism and functionality.",
@@ -13,19 +26,6 @@ export const projects = [
           ],
         },
         {
-          title: "Personal Portfolio",
-          description: "The website you are currently on. I built this site to showcase my skills and my portfolio.",
-          image: "/projects/portfolio.png",
-          github: "https://github.com/mrsamirr/samirr.web",
-          live: "https://mrsamirr.vercel.app/",
-          tech: [
-            '/logos/typescript.svg',
-            '/logos/next-js.svg',
-            '/logos/react.svg',
-            '/logos/tailwind.svg',
-          ],
-        },
-        {
           title: "Aurora Ai",
           description: "Your One-Stop Gateway to the Ultimate Unified AI Assistant for All Your Needs.",
           image: "/projects/aurora-ai.png?height=200&width=300",
@@ -36,6 +36,19 @@ export const projects = [
             '/logos/typescript.svg',
             '/logos/tailwind.svg',
             '/logos/redis.svg',
+          ],
+        },
+        {
+          title: "Personal Portfolio",
+          description: "The website you are currently on. I built this site to showcase my skills and my portfolio.",
+          image: "/projects/portfolio.png",
+          github: "https://github.com/mrsamirr/samirr.web",
+          live: "https://mrsamirr.vercel.app/",
+          tech: [
+            '/logos/typescript.svg',
+            '/logos/next-js.svg',
+            '/logos/react.svg',
+            '/logos/tailwind.svg',
           ],
         },
         {
@@ -64,19 +77,6 @@ export const projects = [
             '/logos/expressjs.svg',
           ],
         },
-        {
-          title: "AgriLink",
-          description: "Agrilink is India's leading Food & Agribusiness Counseling Organization committed to helping Farmers, People, Business visionaries, New companies, SMEs, and Corporate Associations, strategically to transform (setup) their dream Agri-Food ventures into the real world.",
-          image: "/projects/agriLink.png?height=200&width=300",
-          github: "https://github.com/mrsamirr/AgriLink/",
-          live: "https://agri-link-farming.vercel.app/",
-          tech: [
-            '/logos/javascript.svg',
-            '/logos/react.svg',
-            '/logos/nodejs.svg',
-            '/logos/tailwind.svg',
-          ],
-        }
         
         
   ]
