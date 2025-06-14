@@ -18,7 +18,7 @@ export const Contact = () => {
                     You can send me over an e-mail on{" "}
                     <ExternalLink
                         href="mailto:mdsameransari45@gmail.com"
-                        className="text-red-400 hover:!text-blue-300"
+                        className="text-blue-600 hover:!text-blue-300"
                     >
                         mdsameransari45@gmail.com
                     </ExternalLink>

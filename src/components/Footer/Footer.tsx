@@ -7,14 +7,14 @@ export const Footer = () => {
         <AnimationContainer>
 
             <p>
-                Made by <Link className="text-red-400"
+                Made by <Link className="text-blue-600"
                     href="https://www.linkedin.com/in/mrsamirr/">Md Samer Ansari</Link>
             </p>
         </AnimationContainer>
         <AnimationContainer>
             <p>
                 feel free to checkout the source code can be found{" "}
-                <Link className="text-red-400"
+                <Link className="text-blue-600"
                     href="https://github.com/mrsamirr/samirr.web">on GitHub</Link>
             </p>
         </AnimationContainer>
