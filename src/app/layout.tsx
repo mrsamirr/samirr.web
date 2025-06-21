@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { AnimatedCursor } from "@/components/ui/AnimatedCursor";
 import { Contact, Footer } from "@/components";
-
+import { ViewTransitions } from 'next-view-transitions';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <ViewTransitions>
     <html lang="en">
       <body className={inter.className}>
         <main className=" w-full flex-col min-h-screen dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative">
@@ -35,5 +36,6 @@ export default function RootLayout({
         </main>
         </body>
     </html>
+    </ViewTransitions>
   );
 }

@@ -23,7 +23,7 @@ export default function Project() {
                                 height={300}
                                 className="h-48 w-full object-cover"
                             />
-                            <div className="bg-background p-4">
+                            <div className="bg-white dark:bg-zinc-800 p-4">
                                 <h3 className="text-xl font-bold dark:text-white ">{project.title}</h3>
                                 <p className="mt-2 text-sm text-muted-foreground dark:text-white text-[clamp(.75rem,1.5vw,.875rem)] line-clamp-2 ">{project.description}</p>
                                 <div className="mt-4 flex flex-wrap gap-2">
