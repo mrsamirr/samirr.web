@@ -1,4 +1,5 @@
 import WorkExperience from "@/components/Experience/work-experience";
+import FiberWrapper from "@/components/fiber-wrapper";
 import Introduction from "@/components/introduction";
 import Projects from "@/components/Projects/Projects";
 import Skills from "@/components/Skills/Skills";
@@ -10,6 +11,7 @@ export default function Home() {
       <Skills />
       <WorkExperience />
       <Projects />
+      <FiberWrapper />
     </main>
 
   );
