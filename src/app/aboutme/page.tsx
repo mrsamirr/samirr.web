@@ -1,3 +1,4 @@
+import FiberWrapper from "@/components/fiber-wrapper";
 import { renderSocials } from "@/components/Socials/Socials";
 import Image from "next/image";
 
@@ -33,6 +34,7 @@ export default function AboutPage() {
 
                     </div>
                 </section>
+                <FiberWrapper />
 
             </main >
         </>
