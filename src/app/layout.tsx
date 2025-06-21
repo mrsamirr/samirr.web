@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: "Md Samer Ansari",
   description: "A Full Stack developer based on Kolkata, India",
 };
+  <meta name="apple-mobile-web-app-title" content="mrsamer" />
 
 export default function RootLayout({
   children,

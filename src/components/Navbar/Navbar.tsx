@@ -26,6 +26,10 @@ export const Navbar = () =>  {
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 dark:bg-white bg-black"></span>
         </li>
         <li className="cursor-pointer group transition duration-300 text-sm md:text-base">
+          <Link href={'/#works'}>Work</Link>
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 dark:bg-white bg-black"></span>
+        </li>
+        <li className="cursor-pointer group transition duration-300 text-sm md:text-base">
           <Link href={'/#contact'}>Contact Me</Link>
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 dark:bg-white bg-black"></span>
         </li>
