@@ -18,7 +18,7 @@ export const SAMIRR_SOCIALS = [
     },
     {
       name: "Twitter",
-      href: "https://x.com/iamsamirr_",
+      href: "https://x.com/imsamerr",
       icon: Twitter,
     },
   ];

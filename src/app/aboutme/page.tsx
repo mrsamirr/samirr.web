@@ -14,7 +14,7 @@ export default function AboutPage() {
                     <div className="dark:bg-black bg-white max-w-lg dark:text-white text-xl p-5 font-thin flex flex-col items-center rounded-lg border-2 gap-9 m-1">
                         <Image
                             src={"https://creatorspace.imgix.net/users/clc4w34xr00lfju0yz7hwvcfp/E4O6bTcBeQCAicYg-5hn0oo.jpg?w=300&h=300"}
-                            alt="samirr's image"
+                            alt="samerr's image"
                             className="rounded-full border-blue-500 border-4"
                             width={200}
                             height={200}
