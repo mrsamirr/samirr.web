@@ -30,7 +30,7 @@ export const projects = [
           description: "Your One-Stop Gateway to the Ultimate Unified AI Assistant for All Your Needs.",
           image: "/projects/aurora-ai.png?height=200&width=300",
           github: "https://github.com/mrsamirr/ask-this-website",
-          live: "https://auroramind.tech/",
+          live: "https://auroramind.vercel.app/",
           tech: [
             '/logos/next-js.svg',
             '/logos/typescript.svg',
