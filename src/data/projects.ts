@@ -1,5 +1,18 @@
 export const projects = [
           {
+          title: "Same ux",
+          description: "Professional AI-powered design platform for creating, managing, and iterating on UI/UX designs.",
+          image: "/projects/same-ux.png",
+          github: "https://github.com/mrsamirr/samdotdev",
+          live: "https://sameux.vercel.app/",
+          tech: [
+            '/logos/typescript.svg',
+            '/logos/next-js.svg',
+            '/logos/tailwind.svg',
+            '/logos/shadcn.jpeg',
+          ],
+        },
+              {
           title: "Miro Dev",
           description: "Miro Clone - Real-time collaboration, versatile canvas, rich media, secure.",
           image: "/projects/miro-dev.png?height=200&width=300",
